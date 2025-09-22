@@ -3,7 +3,7 @@ import { Users, Award, Clock, Code2, Palette, Zap, Star, Triangle, Circle} from 
 
 const AboutSection = () => {
  return (
-    <section id="о-нас" className="py-32 bg-gradient-to-b from-white to-gray-50 relative overflow-hidden">
+    <section id="about" className="py-32 bg-gradient-to-b from-white to-gray-50 relative overflow-hidden">
       {/* Background animated elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         {/* Floating geometric shapes */}
@@ -67,7 +67,7 @@ const AboutSection = () => {
             <div className="hidden md:block absolute top-1/2 right-1/3 w-1/3 h-px bg-gradient-to-r from-gray-300/50 to-gray-300/50 transform -translate-y-1/2 animate-pulse" style={{ animationDelay: '3s' }}></div>
             
             {[
-              { icon: Users, number: "50+", text: "Проектов реализовано", color: "from-blue-500 to-blue-700" },
+              { icon: Users, number: "35+", text: "Проектов реализовано", color: "from-blue-500 to-blue-700" },
               { icon: Award, number: "5", text: "Лет экспертизы", color: "from-purple-500 to-purple-700" },
               { icon: Clock, number: "24/7", text: "Техническая поддержка", color: "from-green-500 to-green-700" }
             ].map((item, index) => (

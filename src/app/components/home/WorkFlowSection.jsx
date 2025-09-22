@@ -48,7 +48,7 @@ const WorkflowSection = () => {
   ];
 
   return (
-    <section id="этапы-работы" className="py-32 bg-gradient-to-b from-gray-50 via-white to-gray-100 relative overflow-hidden">
+    <section id="workflows" className="py-32 bg-gradient-to-b from-gray-50 via-white to-gray-100 relative overflow-hidden">
       {/* Background animated elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         {/* Large geometric shapes */}
@@ -103,7 +103,7 @@ const WorkflowSection = () => {
             {/* Timeline indicator */}
             <div className="mt-12 flex justify-center items-center gap-4 animate-float" style={{ animationDelay: '400ms' }}>
               <Play className="w-5 h-5 text-gray-400" />
-              <div className="text-sm text-gray-500 font-medium">6 этапов • 2-12 недель</div>
+              <div className="text-sm text-gray-500 font-medium">6 этапов • 1-12 недель</div>
               <CheckCircle2 className="w-5 h-5 text-gray-600" />
             </div>
           </div>
@@ -225,7 +225,7 @@ const WorkflowSection = () => {
             <div className="inline-flex items-center gap-4 px-8 py-4 bg-gradient-to-r from-gray-50 to-white rounded-2xl border border-gray-200/50 shadow-lg hover:shadow-xl transition-all duration-300 group cursor-pointer">
               <div className="w-3 h-3 bg-gray-600 rounded-full animate-pulse"></div>
               <span className="text-gray-600 font-medium group-hover:text-gray-800 transition-colors duration-300">
-                Средняя длительность проекта: 6-8 недель
+                Средняя длительность проекта: 2-4 недель
               </span>
               <Clock className="w-4 h-4 text-gray-400 group-hover:text-gray-600 transition-colors duration-300" />
             </div>
