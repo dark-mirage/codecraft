@@ -4,6 +4,7 @@ import { Monitor, Arrow, Smartphone, Globe, Code, Database, Palette, Play, Eye, 
 const PortfolioSection = () => {
   const projects = [
     { 
+      link: "https://alifshop.uz/ru?",
       title: "E-commerce Platform", 
       category: "Веб-приложение", 
       image: "/portfolio-pics/ecommerce-project.jpg", // Добавьте свои пути к изображениям
@@ -13,15 +14,17 @@ const PortfolioSection = () => {
       year: "2024"
     },
     { 
+      link: "https://play.google.com/store/apps/details?id=com.coreapp.coreapp&hl=ru",
       title: "Educational App", 
       category: "Мобильное приложение", 
-      image: "/portfolio-pics/mobile.jpg",
+      image: "/portfolio-pics/mobile.png",
       gradient: "from-black/80 via-black/50 to-black/30",
       icon: Smartphone,
       tech: ["React Native", "TypeScript", "Firebase"],
       year: "2023"
     },
     { 
+      link: "https://www.uranuslab.com/",
       title: "Corporate Website", 
       category: "Веб-сайт", 
       image: "/portfolio-pics/corporate.png",
@@ -31,6 +34,7 @@ const PortfolioSection = () => {
       year: "2024"
     },
     { 
+      link: "https://www.hiveage.com/",
       title: "SaaS Dashboard", 
       category: "Веб-приложение", 
       image: "/portfolio-pics/Saas.png",
@@ -40,6 +44,7 @@ const PortfolioSection = () => {
       year: "2023"
     },
     {
+      link: "https://logiclike.com/",
       title: "Learning Platform", 
       category: "Веб-приложение", 
       image: "/portfolio-pics/educational-platform.png",
@@ -49,6 +54,7 @@ const PortfolioSection = () => {
       year: "2024"
     },
     { 
+      link: "https://foodpunk.com/en/app/",
       title: "FoodPunk", 
       category: "Мобильное приложение", 
       image: "/portfolio-pics/fitness.png",
@@ -138,7 +144,7 @@ const PortfolioSection = () => {
           
           <div className="grid grid-cols-1 xs:grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 md:gap-6 lg:gap-8">
             {projects.map((project, index) => (
-              <div key={index} className="group cursor-pointer animate-float relative" style={{ animationDelay: `${index * 100}ms` }}>
+              <a href={project.link} key={index} className="group cursor-pointer animate-float relative" style={{ animationDelay: `${index * 100}ms` }}>
                 {/* Glow effect behind card */}
                 <div className="absolute -inset-2 sm:-inset-3 md:-inset-4 bg-gradient-to-br from-gray-100/0 via-gray-100/10 to-gray-100/0 rounded-xl sm:rounded-2xl lg:rounded-3xl opacity-0 group-hover:opacity-100 transition-all duration-700 blur-md sm:blur-lg md:blur-xl"></div>
                 
@@ -255,7 +261,7 @@ const PortfolioSection = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </a>
             ))}
           </div>
 
@@ -269,11 +275,11 @@ const PortfolioSection = () => {
               
               {/* Контент */}
               
-              <a href='#contacts' className="relative z-10 flex items-center justify-center gap-3">
+              <div href='#contacts' className="relative z-10 flex items-center justify-center gap-3">
                 <span className="text-gray-800 font-black text-lg md:text-xl tracking-wide group-hover:text-black transition-colors duration-300">
                   Заказать проект
                 </span>
-              </a>
+              </div>
             </div>
           </a>
         </div>

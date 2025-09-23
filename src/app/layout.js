@@ -3,7 +3,7 @@ import Script from "next/script";
 import "./globals.css";
 
 export const metadata = {
-  title: "Разработка веб-приложения",
+  title: "Разработка веб-приложений",
   description: "Профессиональная разработка веб-приложений и мобильных приложений",
 };
 
