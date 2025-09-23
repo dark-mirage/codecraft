@@ -3,8 +3,8 @@ import Script from "next/script";
 import "./globals.css";
 
 export const metadata = {
-  title: "My App",
-  description: "Next.js App with Google Analytics",
+  title: "Разработка веб-приложения",
+  description: "Профессиональная разработка веб-приложений и мобильных приложений",
 };
 
 export default function RootLayout({ children }) {
