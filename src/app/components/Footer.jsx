@@ -96,7 +96,7 @@ const Footer = () => {
                 {[
                   { name: "Веб-сайты", icon: Globe },
                   { name: "Веб-приложения", icon: Code },
-                  { name: "Мобильные приложения", icon: Smartphone }
+                  { name: "Мобильные приложения", icon: Smartphone },
                 ].map((service, index) => (
                   <li key={index} className="group/item relative">
                     <a href="#services" className="flex items-center hover:text-black transition-colors duration-300 hover:font-medium group-hover/item:translate-x-2 transition-transform duration-300">
@@ -115,7 +115,7 @@ const Footer = () => {
               <div className="mt-4 md:mt-6 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                 <div className="inline-flex items-center gap-1 md:gap-2 px-2 md:px-3 py-1 bg-gray-100 rounded-full border border-gray-200/50">
                   <CheckCircle className="w-3 h-3 text-gray-600" />
-                  <span className="text-xs text-gray-700 font-medium">3 направления</span>
+                  <span className="text-xs text-gray-700 font-medium">6 направлений</span>
                 </div>
               </div>
             </div>

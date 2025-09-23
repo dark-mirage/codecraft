@@ -5,11 +5,15 @@ import "./globals.css";
 export const metadata = {
   title: "Разработка веб-приложений",
   description: "Профессиональная разработка веб-приложений и мобильных приложений",
+  icons: {
+    icon: '/favicon.png', // путь от папки public
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+
       <body>
         {/* Google Analytics */}
         <Script
