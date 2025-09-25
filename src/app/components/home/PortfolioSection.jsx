@@ -23,16 +23,16 @@ const PortfolioSection = () => {
       tech: ["React Native", "TypeScript", "Firebase"],
       year: "2023"
     },
-    { 
-      link: "https://www.uranuslab.com/",
-      title: "Corporate Website", 
-      category: "Веб-сайт", 
-      image: "/portfolio-pics/corporate.png",
-      gradient: "from-black/80 via-black/50 to-black/30",
-      icon: Globe,
-      tech: ["Next.js", "Tailwind", "Vercel"],
-      year: "2024"
-    },
+    // { 
+    //   link: "https://www.uranuslab.com/",
+    //   title: "Corporate Website", 
+    //   category: "Веб-сайт", 
+    //   image: "/portfolio-pics/corporate.png",
+    //   gradient: "from-black/80 via-black/50 to-black/30",
+    //   icon: Globe,
+    //   tech: ["Next.js", "Tailwind", "Vercel"],
+    //   year: "2024"
+    // },
     { 
       link: "https://www.hiveage.com/",
       title: "SaaS Dashboard", 
@@ -41,6 +41,16 @@ const PortfolioSection = () => {
       gradient: "from-black/80 via-black/50 to-black/30",
       icon: Database,
       tech: ["Vue.js", "Express", "MongoDB"],
+      year: "2023"
+    },
+    {
+      link: "https://apps.apple.com/us/app/lerner-ar/id1474275063",
+      title: "LearnerAr", 
+      category: "Мобильное приложение", 
+      image: "/portfolio-pics/learnerAr.png",
+      gradient: "from-black/80 via-black/50 to-black/30",
+      icon: Code,
+      tech: ["KotlinMultiplatform", "Swift"],
       year: "2023"
     },
     {
